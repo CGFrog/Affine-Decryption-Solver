@@ -1,5 +1,18 @@
 ﻿from collections import Counter
 import enchant
+
+"""
+I made this to help me solve my Number Theory homework
+while still engaging with the material in a way that helped me learn.
+
+There are better algorithms out there but this is how we were doing it by hand.
+
+"""
+
+
+
+
+
 # Converts letters to their corresponding number
 def text_to_numbers(text):
     return [ord(c.lower()) - ord('a') for c in text]
