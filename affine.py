@@ -5,13 +5,9 @@ import enchant
 I made this to help me solve my Number Theory homework
 while still engaging with the material in a way that helped me learn.
 
-There are better algorithms out there but this is how we were doing it by hand.
+I am certain that there are better algorithms out there but this is how we were doing it by hand.
 
 """
-
-
-
-
 
 # Converts letters to their corresponding number
 def text_to_numbers(text):
@@ -41,7 +37,6 @@ def score_decryption(text):
             if d.check(word):
                 score += 1
     return score
-
 # List is sorted from most common letters to least common.
 english_freq_order = text_to_numbers("ETAOINSHRDLCUMWFGYPBVKJXQZ")
 ciphertext = text_to_numbers("MJMZKCXUNMGWIRYVCPUWMPRRWGMIOPMSNYSRYRAZPXMCDWPRYEYXD")
